@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 //import Modal from "./Modal/Modal";
 import {CarouselInline} from './Carousel';
+import {CartoonNetworkSpinner} from './CartoonNetworkSpinner'; 
 
 class App extends Component {
   render() {
@@ -35,6 +36,9 @@ class App extends Component {
             ]}
             size="large"/>
         </div>
+        <h1>CartoonNetWorkspinner</h1>
+        <CartoonNetworkSpinner
+          interval={4}/>
       </div>
     );
   }

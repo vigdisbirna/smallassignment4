@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import arrowRight from './assets/arrowRight.png';
 import arrowLeft from './assets/arrowLeft.png';
 import styles from './carousel.module.css'
+
    
 class CarouselInline extends React.Component {
 

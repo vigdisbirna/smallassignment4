@@ -14,9 +14,7 @@ class CarouselInline extends React.Component {
   }
   
   handleLeftClick() {
-    console.log("IM HERE", this.state.counter)
     if(this.state.counter !== 0){
-      console.log("LYKKJA")
       this.setState({
         counter: this.state.counter - 1
       });
@@ -24,9 +22,7 @@ class CarouselInline extends React.Component {
   }
 
   handleRightClick() {
-    console.log("WHUUUUT", this.state.counter)
     if(this.state.counter !== (this.props.images.length - 1)){
-      console.log("LYKKJA TVO")
       this.setState({
         counter: this.state.counter + 1
       });
@@ -35,9 +31,7 @@ class CarouselInline extends React.Component {
 
   render(){
     const {images, size} = this.props
-    console.log(images.length); 
     const {counter } = this.state 
-    console.log(counter)
     return(
       <div>
         <img src={arrowLeft} alt="arrow-left" onClick={(e) => this.handleLeftClick(e)} style={{width:50}}/> 

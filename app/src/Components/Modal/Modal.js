@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Modal.module.css";
-import ModalTitle from "../ModalTitle/ModalTitle";
-import ModalText from "../ModalText/ModalText";
-import ModalFooter from "../ModalFooter/ModalFooter";
+import { ModalTitle } from "../ModalTitle";
+import { ModalText } from "../ModalText";
+import { ModalFooter } from "../ModalFooter";
 import PropTypes from "prop-types";
 
 class Modal extends React.Component {

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "../App.css";
-import Modal from "./Modal/Modal";
-import Row from "./Row/Row";
-import Col from "./Col/Col";
-import DatePicker from "./DatePicker/DatePicker";
-import { Carousel } from "./Carousel";
-import {CartoonNetworkSpinner} from "./CartoonNetworkSpinner"; 
+import "./App.css";
+import { Modal } from "./Components/Modal";
+import { Row } from "./Components/Row";
+import { Col } from "./Components/Col";
+import { DatePicker } from "./Components/DatePicker";
+import { Carousel } from "./Components/Carousel";
+import { CartoonNetworkSpinner } from "./Components/CartoonNetworkSpinner";
 
 class App extends Component {
   constructor(props) {
@@ -83,8 +83,7 @@ class App extends Component {
           />
         </div>
         <h1>CartoonNetWorkspinner</h1>
-        <CartoonNetworkSpinner
-          interval={4}/>
+        <CartoonNetworkSpinner interval={4} />
       </div>
     );
   }

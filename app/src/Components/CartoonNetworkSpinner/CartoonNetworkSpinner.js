@@ -52,7 +52,6 @@ class CartoonNetworkSpinner extends React.Component {
       this.timerID = setInterval(() => this.changePic(), (interval * 1000))
     return(
       <div>
-        <div>HELLO {interval} </div>
         <div className={ styles["cartoonnetworkspinner"] } style={inLinestyles}></div>
       </div>
     )}

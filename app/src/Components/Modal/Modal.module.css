@@ -1,0 +1,19 @@
+.btn {
+  border: solid;
+}
+
+.cancel {
+  composes: btn;
+  background-color: red;
+}
+
+.continue {
+  composes: btn;
+  background-color: blue;
+}
+
+.modal-container {
+  border: solid;
+  height: 300px;
+  width: 300px;
+}

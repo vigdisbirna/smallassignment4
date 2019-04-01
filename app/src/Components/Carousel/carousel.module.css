@@ -1,0 +1,29 @@
+.carousel {
+  display: inline-block;
+  padding: 10px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: dashed 1px darkgray;
+  width: 200px;
+  height: 200px;
+}
+
+.small {
+  composes: carousel; 
+  width: 100px;
+  height: 100px;
+}
+
+.medium {
+  composes: carousel; 
+  width: 200px;
+  height: 200px;
+}
+
+.large {
+  composes: carousel; 
+  width: 300px;
+  height: 300px;
+}
+
